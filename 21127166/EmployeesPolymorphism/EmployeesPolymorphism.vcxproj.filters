@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Business">
+      <UniqueIdentifier>{378c6935-3d63-4d6c-8504-93090ace98ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{7f785a80-ce20-4c9f-9a22-076a2927f749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{005bf42a-3e18-4e26-9db9-a2fdfe03454b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{9a8c7928-e77a-4c97-ad31-c9880018d759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Business">
+      <UniqueIdentifier>{7ecf3257-d06f-416d-a909-d881485f8c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Entity">
+      <UniqueIdentifier>{8d1b5575-1b9b-4d04-bd54-c23d7f72d1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Helper">
+      <UniqueIdentifier>{ad5e7063-276e-4723-80dc-dcfa304b72fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{be32c62f-8077-4090-b12a-9fb9d9713922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DailyEmployee.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductEmployee.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Integer.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberFormatInfo.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="DailyEmployeeParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="IParsable.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFactory.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductEmployeeParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerToCurrencyConverter.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IValueConverter.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DailyEmployeeParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserFactory.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductEmployeeParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="DailyEmployee.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductEmployee.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberFormatInfo.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Resource Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerToCurrencyConverter.cpp">
+      <Filter>Resource Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

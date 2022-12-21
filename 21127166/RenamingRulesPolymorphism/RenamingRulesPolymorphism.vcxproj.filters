@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Business">
+      <UniqueIdentifier>{91f63cfa-f5dc-4045-8bf7-4a96cac28fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{48a0e09a-568c-4519-b252-c1a813e4d3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{00662f84-80b3-4a05-ad44-f4993fb0c03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Business">
+      <UniqueIdentifier>{bba2adea-832a-4ee2-90e7-2692561ea60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Entity">
+      <UniqueIdentifier>{a27bc3f8-8627-46e5-8f8e-cd001ec25304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Helper">
+      <UniqueIdentifier>{3d6cd887-7aca-442c-ab7d-baa0aa8b99ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddCurrentMonthParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="OneSpaceOnlyParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveSpecialCharsParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPrefixParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFactory.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCurrentMonthRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPrefixRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IParsable.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="OneSpaceOnlyRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveSpecialCharsRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceRule.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceParser.h">
+      <Filter>Header Files\Business</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddCurrentMonthParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPrefixParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="OneSpaceOnlyParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserFactory.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveSpecialCharsParser.cpp">
+      <Filter>Resource Files\Business</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCurrentMonthRule.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPrefixRule.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="OneSpaceOnlyRule.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveSpecialCharsRule.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceRule.cpp">
+      <Filter>Resource Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Resource Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
